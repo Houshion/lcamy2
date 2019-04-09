@@ -1,0 +1,490 @@
+/*通用样式*/
+
+.c-diy {
+    color: #31af45;
+}
+
+.ac-diy {
+    color: #31af45!important;
+}
+
+.b-diy {
+    border: 1px solid #d51719;
+}
+
+.bt-diy {
+    border-top: 1px solid #31af45;
+}
+
+.bb-diy {
+    border-bottom: 1px solid #31af45;
+}
+
+.bl-diy {
+    border-left: 1px solid #31af45;
+}
+
+.br-diy {
+    border-right: 1px solid #31af45;
+}
+
+.bg-diy {
+    background-color: #d51719;
+}
+
+.c-diy2 {
+    color: #f4a137;
+}
+
+.bg-diy2 {
+    background-color: #ff7537;
+}
+
+.c-diy3 {
+    color: #fd4343;
+}
+
+.mask {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .2);
+    z-index: 99;
+}
+
+.modal {
+    position: fixed;
+    width: 80%;
+    left: 10%;
+    z-index: 100;
+}
+
+.circle {
+    width: 0.36rem;
+    height: 0.36rem;
+}
+
+.circle>img {
+    width: 0.36rem;
+    height: 0.36rem;
+    display: none;
+}
+
+.pay-type:checked+.circle>img {
+    display: block;
+}
+
+.arrow-icon {
+    height: 0.22rem;
+    width: .12rem;
+}
+
+.upload-icon {
+    width: 0.60rem;
+    height: 0.60rem;
+}
+
+.logo {
+    width: 1.0rem;
+    height: 1.0rem;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 0.05rem solid transparent;
+    border-right: 0.05rem solid transparent;
+    border-top: 0.1rem solid #bbb;
+}
+
+.empty-icon {
+    width: 1.8rem;
+}
+
+.shop-pic {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+
+.navigate-icon {
+    width: 0.18rem;
+}
+
+.location-icon {
+    width: 0.15rem;
+}
+
+.comment-avatar {
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.paytype-icon {
+    width: 0.23rem;
+}
+
+.timing-bg {
+    background: url(../img/icon_15.png) center no-repeat;
+    background-size: cover;
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.timing-bg2 {
+    background: url(../img/icon_36.png) center no-repeat;
+    background-size: cover;
+    width: 2.0rem;
+    height: 2.0rem;
+}
+
+.circle2 {
+    width: 0.12rem;
+    height: 0.12rem;
+}
+
+.menu-icon {
+    width: 0.18rem;
+}
+
+.rank-icon {
+    width: 0.12rem;
+}
+
+.center-avatar {
+    width: 0.70rem;
+    height: 0.70rem;
+}
+
+.avatar {
+    width: 0.50rem;
+    height: 0.50rem;
+}
+
+.rule-avatar {
+    width: 0.50rem;
+    height: 0.50rem;
+}
+
+.charge-bar {
+    height: 0.8rem;
+}
+
+.discount {
+    border-top-right-radius: 0.08rem;
+    border-bottom-left-radius: 0.08rem;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.charge-bar {
+    background-color: #f5f5f5;
+}
+
+.charge-bar>.charge-money {
+    color: #31af45;
+}
+
+.charge-bar>.discount-money {
+    color: #bbb;
+}
+
+.charge-type:checked+.charge-bar {
+    background-color: #31af45;
+}
+
+.charge-type:checked+.charge-bar>.charge-money {
+    color: #fff;
+}
+
+.charge-type:checked+.charge-bar>.discount-money {
+    color: #fff;
+}
+
+.coupon-bg {
+    background: url(../img/icon_22.png) center no-repeat;
+    background-size: cover;
+    height: 1.2rem;
+}
+
+.coupon-icon {
+    width: 0.40rem;
+    height: 0.40rem;
+}
+
+.star-icon {
+    width: 0.22rem;
+}
+
+.star-pane[sel="0"]>.star-icon:first-child {
+    display: block;
+}
+
+.star-pane[sel="0"]>.star-icon:last-child {
+    display: none;
+}
+
+.star-pane[sel="1"]>.star-icon:first-child {
+    display: none;
+}
+
+.star-pane[sel="1"]>.star-icon:last-child {
+    display: block;
+}
+
+.wx-bar {
+    width: 0.55rem;
+    height: 0.55rem;
+}
+
+.wx-icon {
+    width: 0.30rem;
+}
+
+.invite-page {
+    background: url(../img/bg_1.jpg) top center no-repeat;
+    background-size: cover;
+}
+
+.invited-input-bar {
+    background-color: #fdd768;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+}
+
+.invited-input-bar input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.invited-btn-bar {
+    background-color: #e2083d;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .8);
+}
+
+.logo-icon {
+    width: 0.7rem;
+}
+
+.money-icon {
+    width: 0.25rem;
+}
+
+.home-menu-icon {
+    width: 0.7rem;
+}
+
+.business-menu.active {
+    background-color: #f5f5f5;
+}
+
+.success-icon {
+    width: 0.40rem;
+}
+
+.mui-switch {
+    width: 52px;
+    height: 31px;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    background-color: #fdfdfd;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius 20px;
+    background-clip: content-box;
+    display: inline-block;
+    -webkit-appearance: none;
+    user-select: none;
+    outline: none;
+}
+
+.mui-switch:before {
+    content: '';
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.mui-switch:checked {
+    border-color: #d51719;
+    box-shadow: #d51719 0 0 0 16px inset;
+    background-color: #d51719;
+}
+
+.mui-switch:checked:before {
+    left: 21px;
+}
+
+.navigate-icon {
+    width: 0.15rem;
+}
+
+.map-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.map-btn-pane {
+    position: fixed;
+    left: 0;
+    bottom: 0.4rem;
+}
+
+.map-menu-icon {
+    width: 0.40rem;
+}
+
+.del-btn {
+    position: absolute;
+    top: -0.05rem;
+    right: -0.05rem;
+}
+
+.del-btn>img {
+    width: 0.25rem;
+    height: 0.25rem;
+}
+
+.upload-img {
+    height: 0.79rem;
+}
+
+#allmap {
+    height: 100%;
+    width: 100%;
+    position: fixed!important;
+    top: 0;
+    left: 0;
+}
+
+.showMapInfoWrap {
+    font-size: 0.15rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 0.30rem;
+    left: 0.15rem;
+}
+
+#map {
+    display: none;
+}
+
+.close {
+    position: absolute;
+    left: 0.15rem;
+    top: 0.15rem;
+}
+
+.close>img {
+    width: 0.40rem;
+    height: 0.40rem;
+}
+
+.share-icon {
+    width: 1.2rem;
+}
+
+.main_btn,
+.pay_btn {
+    border-radius: 1rem;
+    background: #d51719;
+    margin: .44rem auto 0;
+    width: 5.81rem;
+    height: .81rem;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+
+.list:last-child {
+    border-bottom: none;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*加减运算*/
+
+.count .minus,
+.count .add {
+    width: .48rem;
+    height: .48rem;
+    border: 1px solid #ccc;
+    border-radius: .08rem;
+    color: #999;
+}
+
+.count .num {
+    width: .6rem;
+    height: .48rem;
+    color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*layer弹出层*/
+
+.layui-m-layer0 .layui-m-layerchild {
+    width: 90%;
+    max-width: 6rem!important;
+}
